@@ -1,0 +1,20 @@
+{
+    "type": "application", 
+    "id": "co.karltaylor.tvheadend", 
+    "version": "1.0", 
+    "depends": [
+        "org.debian.wheezy-lamp-1.2"
+    ], 
+    "startup_mode": "auto", 
+    "settings": {}, 
+    "network_ports": {
+        "WEB_UI": 8888
+    }, 
+    "port_mapping": [], 
+    "fixed_ports": [], 
+    "display_mode": "tab", 
+    "redirect_mode": "transparent", 
+    "user_data_access": false, 
+    "private_data_access": false, 
+    "app_data": []
+}

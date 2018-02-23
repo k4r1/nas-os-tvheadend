@@ -1,0 +1,21 @@
+{
+    "name": {
+        "en": "TVHeadEnd"
+    }, 
+    "description_short": {
+        "en": "Run TVHeadEnd on your NAS to capture TV from a DVB card and stream it to other devices on your network. "
+    }, 
+    "description_long": {}, 
+    "changelog": {}, 
+    "keywords": {}, 
+    "publisher_name": "Karl Taylor", 
+    "publisher_contact": "tvheadend@karltaylor.co", 
+    "publication_date": "2018-02-22", 
+    "website_url": "", 
+    "privacy_url": "", 
+    "disclaimer": "", 
+    "categories": [], 
+    "supported_languages": [
+        "en"
+    ]
+}

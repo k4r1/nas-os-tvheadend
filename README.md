@@ -31,7 +31,7 @@ To add support for your own DVB tuner, you must build your own kernel modules, a
      
      - The new root is stored in `/media/internal-1/rainbow/XXXXX-tvheadend/` (or similar).
 
-     - All containers have access to `/shares/*`. To copy files into your container, I reccommend copying them there.
+     - All containers have access to `/shares/*`. To copy files into your container, I recommend copying them there.
 
      - In order to bind a directory from the host to the container, before entering use the `mount --bind` command.
 

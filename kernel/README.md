@@ -30,6 +30,8 @@ The resultant `.ko` files can be found next to their respective source files in 
 - `drivers/media/dvb-frontends/dib0070.o`
 - `drivers/media/dvb-frontends/dib0070.ko` - This is the file you want to package with your NAS App
 
+I recommend building from inside the NAS OS Development [VMWare image](https://www.seagate.com/nasos/SDK/0.7/downloads/index.html#sdk) provided by Seagate, as it already contains the toolchain you will need.
+
 ## Troubleshooting
 
 To load your module into the running kernel, use the `insmod NAME.ko` command. If you have an error, examine the output of the `dmesg` command - it is usually a dependend kernel module which has not been inserted.
